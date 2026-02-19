@@ -24,7 +24,7 @@
     "vite": "^6.2.0"
   },
   {
-  "homepage": "https://fguirrugo.github.io/mm/",
+  "homepage": "https://fguirrugo.github.io/mm",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
