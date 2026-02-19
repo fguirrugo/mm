@@ -10,16 +10,24 @@
   },
   "dependencies": {
     "@google/genai": "^1.41.0",
-    "react-dom": "^19.2.4",
-    "react": "^19.2.4",
-    "recharts": "^3.7.0",
     "lucide-react": "^0.574.0",
-    "react-markdown": "^10.1.0"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.7.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
+    "gh-pages": "^6.3.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
+  },
+  {
+  "homepage": "https://fguirrugo.github.io/mm/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
+}
 }
